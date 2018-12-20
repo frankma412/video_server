@@ -17,6 +17,7 @@ func main() {
 	r := RegisterHandlers()
 	http.ListenAndServe("10.16.57.176:9696", r)
 
+	
 	//listen->registerhandlers->handlers
 	//handler->validation(1.request 2..user)->business logic->response
 }
